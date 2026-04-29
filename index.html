@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Čistění Koberců Nonstop – Profesionální čištění koberců, podlah, čalounění a interiérů aut v Jihomoravském a
+    Olomouckémkraji</title>
+  <meta name="description"
+    content="Profesionální čištění koberců, podlah, čalounění, matrací a interiérů automobilů. Extrakční metodou, přijedeme 24/7, od 25 Kč/m². Jihomoravský a Olomoucký kraj." />
+  <!-- Google Fonts: Jost (Futura alternative) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" id="logo-link">
+        <img src="images/logo-new.svg" alt="Čištění koberců nonstop" class="logo__img">
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Hlavní navigace">
+        <a href="#sluzby" class="nav__link">Služby</a>
+        <a href="#jak-to-funguje" class="nav__link">Jak to funguje</a>
+        <a href="#cenik" class="nav__link">Ceník</a>
+        <a href="#reference" class="nav__link">Reference</a>
+        <a href="#kontakt" class="nav__link">Kontakt</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="https://www.facebook.com/cistenikobercunonstop.cz/" target="_blank" rel="noopener"
+          class="btn btn--secondary" id="header-fb-btn" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 640"
+            class="fb-svg"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+            <path
+              d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z" />
+          </svg></a>
+        <a href="tel:+420777957775" class="btn btn--secondary" id="header-phone-btn">Volejte <strong>777 957
+            775</strong></a>
+        <a href="#kontakt" class="btn btn--primary" id="header-contact-btn">Nezávazná poptávka</a>
+      </div>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Otevřít menu" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobilní navigace">
+        <a href="#sluzby" class="mobile-nav__link">Služby</a>
+        <a href="#jak-to-funguje" class="mobile-nav__link">Jak to funguje</a>
+        <a href="#cenik" class="mobile-nav__link">Ceník</a>
+        <a href="#reference" class="mobile-nav__link">Reference</a>
+        <a href="#kontakt" class="mobile-nav__link">Kontakt</a>
+        <a href="tel:+420123456789" class="btn btn--primary mobile-nav__cta" id="mobile-phone-btn">Zavolat nyní</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-gradient" aria-hidden="true"></div>
+      <div class="hero__grid-overlay" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__text">
+            <div class="hero__badge" id="hero-badge">
+              <span class="badge__dot"></span>
+              K dispozici 24 / 7 – i o víkendech
+            </div>
+            <h1 class="hero__title">
+              Čistění <span id="typing-text" class="hero__typing"></span><br />
+              <span class="hero__title--red">NONSTOP.</span>
+            </h1>
+            <p class="hero__subtitle">
+              Extrakční čištění koberců, podlah, čalounění, matrací a interiérů automobilů.
+              Přijedeme v libovolnou hodinu k Vám domů, do kanceláře nebo na naši provozovnu.
+              Jihomoravský a Olomoucký kraj.
+            </p>
+            <div class="hero__actions">
+              <a href="#kontakt" class="btn btn--primary btn--large" id="hero-cta-primary">Nezávazná poptávka</a>
+              <a href="#sluzby" class="btn btn--ghost btn--large" id="hero-cta-secondary">Prohlédnout služby</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="hero__image-wrapper">
+              <img src="images/hero-image.jpg" alt="Profesionální čištění koberců" class="hero__img">
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__stats" aria-label="Klíčové statistiky">
+          <div class="stat" id="stat-price">
+            <span class="stat__value">od 25 Kč</span>
+            <span class="stat__label">za m²</span>
+          </div>
+          <div class="stat" id="stat-hours">
+            <span class="stat__value">24 / 7</span>
+            <span class="stat__label">dostupnost</span>
+          </div>
+          <div class="stat" id="stat-clients">
+            <span class="stat__value">100+</span>
+            <span class="stat__label">klientů</span>
+          </div>
+          <div class="stat" id="stat-regions">
+            <span class="stat__value">2 kraje</span>
+            <span class="stat__label">Jihomoravský a Olomoucký</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUST LOGOS ========== -->
+    <section class="trust" id="trust" aria-label="Vybraní klienti">
+      <div class="container">
+        <p class="trust__label">Důvěřují nám hotely, školy, firmy i domácnosti</p>
+        <div class="trust__logos" id="trust-logos">
+          <span class="trust__logo">Hotel Courtyard by Marriott</span>
+          <span class="trust__logo">Mendelova Univerzita</span>
+          <span class="trust__logo">Capgemini</span>
+          <span class="trust__logo">Tourbus a.s.</span>
+          <span class="trust__logo">Megaplast s.r.o.</span>
+          <span class="trust__logo">Penam a.s.</span>
+          <span class="trust__logo">Hotel Arkáda</span>
+          <span class="trust__logo">Park Lane Cafe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="sluzby">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Naše služby</span>
+          <h2 class="section-title">Perfektně vyčistíme cokoli, kdykoli.</h2>
+          <p class="section-subtitle">Pracujeme extrakční metodou – jediným skutečně efektivním způsobem hloubkového
+            čištění.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card service-card--featured" id="service-koberce">
+            <div class="service-card__image">
+              <img src="images/koberce.jpg" alt="Čištění koberců">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Čištění koberců</h3>
+              <p class="service-card__desc">
+                Extrakční metodou stříkáme pod tlakem saponát s vodou do chlupu koberce a vše odsáváme.
+                Vhodné pro domácnosti i kanceláře. Koberec je mechanicky šetrně ošetřen a rychle schne.
+              </p>
+              <ul class="service-card__list">
+                <li>Domácnosti i kanceláře</li>
+                <li>Rychlé schnutí</li>
+                <li>Šetrné k vláknům</li>
+                <li><strong>Od 25 Kč / m²</strong></li>
+              </ul>
+              <a href="#kontakt" class="service-card__link" id="service-koberce-cta">Poptávka →</a>
+            </div>
+          </article>
+
+          <article class="service-card" id="service-calouneni">
+            <div class="service-card__image">
+              <img src="images/calouneni.jpg" alt="Čištění čalounění">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Čištění čalounění</h3>
+              <p class="service-card__desc">
+                Hloubkové čištění čalouněného nábytku speciální hlavicí zaručuje vynikající výsledky
+                a šetrné, efektivní ošetření každého materiálu. Barvy budou jasné a materiál ožije.
+              </p>
+              <ul class="service-card__list">
+                <li>Pohovky a křesla</li>
+                <li>Speciální hlavice</li>
+                <li>Hloubkové čištění</li>
+                <li><strong>Od 50 Kč / židle</strong></li>
+              </ul>
+              <a href="#kontakt" class="service-card__link" id="service-calouneni-cta">Poptávka →</a>
+            </div>
+          </article>
+
+          <article class="service-card" id="service-matrace">
+            <div class="service-card__image">
+              <img src="images/matrace.jpg" alt="Čištění matrací">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Čištění matrací</h3>
+              <p class="service-card__desc">
+                Profesionálně vyčistíme matrace – zbavíme je roztočů, prachu a plísní
+                a zároveň je odmastíme pro zdravý spánek. Budou čisté a voňavé, jako nové.
+              </p>
+              <ul class="service-card__list">
+                <li>Odstranění roztočů</li>
+                <li>Eliminace plísní</li>
+                <li>Odmašťování</li>
+                <li><strong>Od 300 Kč</strong></li>
+              </ul>
+              <a href="#kontakt" class="service-card__link" id="service-matrace-cta">Poptávka →</a>
+            </div>
+          </article>
+
+          <article class="service-card" id="service-auto">
+            <div class="service-card__image">
+              <img src="images/auta.jpg" alt="Čištění interiéru auta">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Čištění interiérů automobilů</h3>
+              <p class="service-card__desc">
+                Mobilní čištění přímo u vás nebo na naší provozovně. Sedadla, výplně dveří, strop,
+                plastové části, kufr – kompletní péče o interiér vašeho vozu.
+              </p>
+              <ul class="service-card__list">
+                <li>Všechny typy vozidel</li>
+                <li>Extrakce sedadel</li>
+                <li>Ošetření plastů</li>
+                <li><strong>Od 500 Kč</strong></li>
+              </ul>
+              <a href="#kontakt" class="service-card__link" id="service-auto-cta">Poptávka →</a>
+            </div>
+          </article>
+
+          <article class="service-card" id="service-podlahy">
+            <div class="service-card__image">
+              <img src="images/podlahy.jpg" alt="Čištění podlah">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Čištění podlah</h3>
+              <p class="service-card__desc">
+                Strojové čištění tvrdých podlah, dlažby a linolea. Odstraníme zašlou špínu
+                a vrátíme vašim podlahám původní lesk. Podlahy budou vypadat jako nové.
+              </p>
+              <ul class="service-card__list">
+                <li>Dlažba a linoleum</li>
+                <li>Strojové drhnutí</li>
+                <li>Ochranné nátěry</li>
+                <li><strong>Od 25 Kč / m²</strong></li>
+              </ul>
+              <a href="#kontakt" class="service-card__link" id="service-podlahy-cta">Poptávka →</a>
+            </div>
+          </article>
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="how-it-works" id="jak-to-funguje">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Postup</span>
+          <h2 class="section-title">Jak to funguje</h2>
+          <p class="section-subtitle">Jednoduše, rychle a bez komplikací – přijedeme v čas, který vám vyhovuje.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step" id="step-1">
+            <div class="step__number" aria-hidden="true">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Kontaktujte nás</h3>
+              <p class="step__desc">Zavolejte nebo vyplňte formulář. Domluvíme termín přesně podle vašich potřeb – i o
+                víkendu nebo v noci.</p>
+            </div>
+          </div>
+          <div class="step__connector" aria-hidden="true"></div>
+          <div class="step" id="step-2">
+            <div class="step__number" aria-hidden="true">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Přijedeme k vám</h3>
+              <p class="step__desc">Náš tým dorazí ve sjednaný čas s veškerým vybavením. Pracujeme u vás doma, v
+                kanceláři nebo na naší provozovně.</p>
+            </div>
+          </div>
+          <div class="step__connector" aria-hidden="true"></div>
+          <div class="step" id="step-3">
+            <div class="step__number" aria-hidden="true">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Profesionální čištění</h3>
+              <p class="step__desc">Čistíme extrakční metodou – nejefektivnějším způsobem, který šetrně odstraní veškeré
+                nečistoty.</p>
+            </div>
+          </div>
+          <div class="step__connector" aria-hidden="true"></div>
+          <div class="step" id="step-4">
+            <div class="step__number" aria-hidden="true">04</div>
+            <div class="step__content">
+              <h3 class="step__title">Výsledek ihned viditelný</h3>
+              <p class="step__desc">Koberec nebo čalounění schne rychle a výsledek je okamžitě viditelný. Vaše prostory
+                jsou jako nové.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section class="pricing" id="cenik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ceník</span>
+          <h2 class="section-title">Transparentní ceny, žádná překvapení</h2>
+          <p class="section-subtitle">Ceny jsou orientační – finální nabídku připravíme na míru po domluvě. Sleva pro
+            důchodce.</p>
+        </div>
+
+        <div class="pricing__grid">
+          <div class="pricing-card" id="price-koberce">
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon" aria-hidden="true">🧹</span>
+              <h3 class="pricing-card__title">Koberce a podlahy</h3>
+            </div>
+            <div class="pricing-card__price">
+              <span class="price__value">od 25 Kč</span>
+              <span class="price__unit">/ m²</span>
+            </div>
+            <p class="pricing-card__note">Cena závisí na velikosti a stupni znečištění.</p>
+          </div>
+
+          <div class="pricing-card pricing-card--highlight" id="price-calouneni">
+            <div class="pricing-card__badge">Nejoblíbenější</div>
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon" aria-hidden="true">🛋️</span>
+              <h3 class="pricing-card__title">Čalounění</h3>
+            </div>
+            <div class="pricing-card__price">
+              <span class="price__value">od 50 Kč</span>
+              <span class="price__unit">/ židle</span>
+            </div>
+            <p class="pricing-card__note">Kontaktujte nás pro nezávaznou cenovou nabídku.</p>
+          </div>
+
+          <div class="pricing-card" id="price-matrace">
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon" aria-hidden="true">🛏️</span>
+              <h3 class="pricing-card__title">Matrace</h3>
+            </div>
+            <div class="pricing-card__price">
+              <span class="price__value">od 150 Kč</span>
+              <span class="price__unit">/ ks</span>
+            </div>
+            <p class="pricing-card__note">Dle rozměru matrace a stupně znečištění.</p>
+          </div>
+
+          <div class="pricing-card" id="price-auto">
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon" aria-hidden="true">🚗</span>
+              <h3 class="pricing-card__title">Interiér auta</h3>
+            </div>
+            <div class="pricing-card__price">
+              <span class="price__value">od 800 Kč</span>
+              <span class="price__unit">/ interiér</span>
+            </div>
+            <p class="pricing-card__note">Osobní vozy, dodávky, autobusy.</p>
+          </div>
+        </div>
+
+        <p class="pricing__discount" id="pricing-discount-note">
+          🎁 <strong>Sleva pro důchodce</strong> – neváhejte se zeptat při objednávce.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== REFERENCES ========== -->
+    <section class="references" id="reference">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Reference a partneři</span>
+          <h2 class="section-title">Více než 100 spokojených klientů</h2>
+          <p class="section-subtitle">Hotely, školy, státní instituce, finanční domy, firmy i domácnosti z celého
+            Jihomoravského a Olomouckého kraje.</p>
+        </div>
+
+        <div class="refs__grid" id="refs-grid">
+          <div class="ref-item">PASÁŽ ROZKĚT – Brno</div>
+          <div class="ref-item">Hotel Courtyard by Marriott – Brno</div>
+          <div class="ref-item">Mendelova Univerzita – Brno</div>
+          <div class="ref-item">Capgemini Czech Republic – Praha</div>
+          <div class="ref-item">Tourbus a.s. – Brno</div>
+          <div class="ref-item">Hotel Arkáda – Bučovice</div>
+          <div class="ref-item">Park Lane Cafe – Brno</div>
+          <div class="ref-item">Megaplast s.r.o. – Bulhary</div>
+          <div class="ref-item">Penam a.s. – Břeclav</div>
+          <div class="ref-item">Hotel Princess – Lednice</div>
+          <div class="ref-item">Hotel Zlatý Chlum – Jeseník</div>
+          <div class="ref-item">Hotel Mlýn – Velehrad</div>
+          <div class="ref-item">Gymnázium – Břeclav</div>
+          <div class="ref-item">Lotus Centrum – Břeclav</div>
+          <div class="ref-item">Slunný dvůr – Jeseník</div>
+          <div class="ref-item">Penzion Terasa – Mikulov</div>
+          <div class="ref-item">ADRA o.p.s. – Brno</div>
+          <div class="ref-item">Dobrá Restaurace – Brno</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner" id="cta-banner">
+      <div class="container cta-banner__inner">
+        <div class="cta-banner__text">
+          <h2 class="cta-banner__title">Připraveni začít?</h2>
+          <p class="cta-banner__subtitle">Kontaktujte nás ještě dnes. Přijedeme v čas, který vám vyhovuje – 24 hodin
+            denně, 7 dní v týdnu.</p>
+        </div>
+        <div class="cta-banner__actions">
+          <a href="#kontakt" class="btn btn--primary btn--large" id="cta-banner-btn">Nezávazná poptávka</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="kontakt">
+      <div class="container contact__inner">
+
+        <div class="contact__info">
+          <span class="section-tag">Kontakt</span>
+          <h2 class="contact__title">Ozvěte se nám</h2>
+          <p class="contact__subtitle">Rádi odpovíme na vaše dotazy a připravíme nezávaznou nabídku.</p>
+
+          <div class="contact__details">
+            <div class="contact-item" id="contact-phone">
+              <div class="contact-item__icon" aria-hidden="true">📞</div>
+              <div>
+                <div class="contact-item__label">Telefon</div>
+                <a href="tel:+420775264084" class="contact-item__value">+420 775 264 084</a>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-email">
+              <div class="contact-item__icon" aria-hidden="true">✉️</div>
+              <div>
+                <div class="contact-item__label">E-mail</div>
+                <a href="mailto:info@cistenikobercunonstop.cz"
+                  class="contact-item__value">info@cistenikobercunonstop.cz</a>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-hours">
+              <div class="contact-item__icon" aria-hidden="true">🕐</div>
+              <div>
+                <div class="contact-item__label">Dostupnost</div>
+                <span class="contact-item__value">24 / 7 – celý týden</span>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-region">
+              <div class="contact-item__icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact-item__label">Region</div>
+                <span class="contact-item__value">Jihomoravský a Olomoucký kraj</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact__form" id="contact-form">
+          <input type="hidden" name="access_key" value="ad394a6f-b4f7-48d8-95bb-c14218060f4f">
+          <input type="hidden" name="subject" value="Nová poptávka z webu">
+          <input type="hidden" name="from_name" value="Formulář web">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <div class="form-group">
+            <label class="form-label" for="form-name">Vaše jméno</label>
+            <input class="form-input" type="text" id="form-name" name="name" placeholder="Jan Novák" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-phone">Telefon</label>
+            <input class="form-input" type="tel" id="form-phone" name="phone" placeholder="+420 777 000 000" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-service">Zájem o službu</label>
+            <select class="form-input form-select" id="form-service" name="service">
+              <option value="">Vyberte službu…</option>
+              <option value="koberce">Čištění koberců</option>
+              <option value="podlahy">Čištění podlah</option>
+              <option value="calouneni">Čištění čalounění</option>
+              <option value="matrace">Čištění matrací</option>
+              <option value="auto">Čištění interiéru auta</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-message">Zpráva</label>
+            <textarea class="form-input form-textarea" id="form-message" name="message"
+              placeholder="Popište co potřebujete vyčistit a kdy vám vyhovuje termín…" rows="4"></textarea>
+          </div>
+          <button class="btn btn--primary btn--full" type="submit" id="form-submit-btn">Odeslat poptávku</button>
+          <div class="form__success" id="form-success" aria-live="polite" hidden>
+            ✅ Děkujeme! Brzy se vám ozveme.
+          </div>
+          <div class="form__error" id="form-error" aria-live="polite" hidden>
+            ❌ Prosím vyplňte jméno a telefon.
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+
+      <div class="footer__brand">
+        <a href="index.html" class="logo">
+          <img src="images/logo-new.svg" alt="Čištění koberců nonstop" class="logo__img">
+        </a>
+        <p class="footer__tagline">Čistíme v libovolnou hodinu, dle dohody. Přijedeme k vám kamkoli v Jihomoravském a
+          Olomouckém kraji.</p>
+        <div class="footer__contact-info">
+          <a href="tel:+420777957775" class="footer__contact-item">
+            <span class="footer__contact-icon">📞</span>
+            +420 777 957 775
+          </a>
+          <a href="mailto:info@cistenikobercunonstop.cz" class="footer__contact-item">
+            <span class="footer__contact-icon">✉️</span>
+            info@cistenikobercunonstop.cz
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Patička navigace">
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Služby</h4>
+          <a href="#sluzby" class="footer__nav-link">Čištění koberců</a>
+          <a href="#sluzby" class="footer__nav-link">Čištění čalounění</a>
+          <a href="#sluzby" class="footer__nav-link">Čištění matrací</a>
+          <a href="#sluzby" class="footer__nav-link">Interiéry automobilů</a>
+        </div>
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Informace</h4>
+          <a href="#jak-to-funguje" class="footer__nav-link">Jak to funguje</a>
+          <a href="#cenik" class="footer__nav-link">Ceník</a>
+          <a href="#reference" class="footer__nav-link">Reference</a>
+          <a href="regions/o-cisteni-kobercu.html" class="footer__nav-link">O čištění koberců</a>
+        </div>
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Jihomoravský kraj</h4>
+          <a href="regions/jihomoravsky-kraj.html" class="footer__nav-link"
+            style="color: var(--color-accent); font-weight: 600; margin-bottom: 4px;">Zobrazit vše</a>
+          <a href="regions/cisteni-kobercu-brno.html" class="footer__nav-link">Brno</a>
+          <a href="regions/cisteni-kobercu-znojmo.html" class="footer__nav-link">Znojmo</a>
+          <a href="regions/cisteni-kobercu-hodonin.html" class="footer__nav-link">Hodonín</a>
+          <a href="regions/cisteni-kobercu-breclav.html" class="footer__nav-link">Břeclav</a>
+          <a href="regions/cisteni-kobercu-blansko.html" class="footer__nav-link">Blansko</a>
+          <a href="regions/cisteni-kobercu-vyskov.html" class="footer__nav-link">Vyškov</a>
+          <a href="regions/cisteni-kobercu-kurim.html" class="footer__nav-link">Kuřim</a>
+          <a href="regions/cisteni-kobercu-boskovice.html" class="footer__nav-link">Boskovice</a>
+        </div>
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Olomoucký kraj</h4>
+          <a href="regions/olomoucky-kraj.html" class="footer__nav-link"
+            style="color: var(--color-accent); font-weight: 600; margin-bottom: 4px;">Zobrazit vše</a>
+          <a href="regions/cisteni-kobercu-olomouc.html" class="footer__nav-link">Olomouc</a>
+          <a href="regions/cisteni-kobercu-prostejov.html" class="footer__nav-link">Prostějov</a>
+          <a href="regions/cisteni-kobercu-prerov.html" class="footer__nav-link">Přerov</a>
+          <a href="regions/cisteni-kobercu-sumperk.html" class="footer__nav-link">Šumperk</a>
+          <a href="regions/cisteni-kobercu-jesenik.html" class="footer__nav-link">Jeseník</a>
+          <a href="regions/cisteni-kobercu-hranice.html" class="footer__nav-link">Hranice</a>
+          <a href="regions/cisteni-kobercu-unicov.html" class="footer__nav-link">Uničov</a>
+          <a href="regions/cisteni-kobercu-litovel.html" class="footer__nav-link">Litovel</a>
+        </div>
+      </nav>
+
+
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__copy">© 2026 Čistění Koberců Nonstop. Roman Bartošík IČO 88682323. Všechna práva vyhrazena.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
