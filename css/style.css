@@ -400,6 +400,13 @@ img {
   z-index: 1;
 }
 
+.hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
 .hero__badge {
   display: inline-flex;
   align-items: center;
@@ -411,7 +418,17 @@ img {
   border: 1px solid var(--color-border);
   padding: 6px 16px;
   border-radius: 99px;
-  margin-bottom: 32px;
+}
+
+.badge__stars {
+  color: #fbbf24;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.badge__percent {
+  color: var(--color-accent-green);
+  font-weight: 700;
 }
 
 .badge__dot {
