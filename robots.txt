@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cistenikobercunonstop.cz/sitemap.xml
+Sitemap: https://www.cistenikobercunonstop.cz/sitemap.xml
